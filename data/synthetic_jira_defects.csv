@@ -1,0 +1,21 @@
+bug_id,title,description,module,severity,status
+BUG-1001,UPI payment fails for high value transaction,Payment fails when a customer attempts a UPI transfer above the configured transaction limit.,Payments,High,Closed
+BUG-1002,High value UPI transfer unsuccessful,UPI transfer is unsuccessful for transactions above the supported amount threshold.,Payments,High,Closed
+BUG-1003,UPI payment timeout after submit,The payment request times out after the user submits a UPI transaction.,Payments,High,Closed
+BUG-1004,UPI transaction times out on slow network,UPI payment does not complete when network latency is high and eventually shows a timeout.,Payments,Medium,Closed
+BUG-1005,Login fails with valid credentials,Users cannot sign in even though the username and password are valid.,Authentication,High,Closed
+BUG-1006,Valid user credentials rejected,The application rejects correct login credentials and keeps the user on the sign-in page.,Authentication,High,Closed
+BUG-1007,Account locked after failed attempts,User account becomes locked after multiple incorrect password attempts.,Authentication,Medium,Closed
+BUG-1008,Password reset email not received,Password reset request succeeds but the user does not receive the reset email.,Authentication,Medium,Closed
+BUG-1009,Payment succeeds but status remains pending,The payment is completed but the transaction status continues to show pending.,Payments,High,Closed
+BUG-1010,Completed payment displayed as pending,After a successful transaction the UI incorrectly shows the payment as pending.,Payments,High,Closed
+BUG-1011,Refund not reflected in account balance,A completed refund is not reflected in the customer's available account balance.,Accounts,High,Closed
+BUG-1012,Refund amount missing from balance,The refunded amount does not appear in the customer's account balance.,Accounts,High,Closed
+BUG-1013,Statement download fails,Downloading the account statement results in an error.,Accounts,Medium,Closed
+BUG-1014,Account statement PDF cannot be downloaded,The user cannot download the statement PDF from the account page.,Accounts,Medium,Closed
+BUG-1015,Chatbot gives incorrect account balance,The banking chatbot displays an incorrect available balance for the customer.,Chatbot,High,Closed
+BUG-1016,Virtual assistant shows wrong balance,The virtual assistant returns a balance that does not match the account balance.,Chatbot,High,Closed
+BUG-1017,Chatbot fails to connect customer to agent,The chatbot does not transfer the customer to a live agent after the customer requests human assistance.,Chatbot,High,Closed
+BUG-1018,Live agent transfer unavailable from chatbot,Requesting a human representative from the chatbot does not start the agent handoff.,Chatbot,High,Closed
+BUG-1019,Search results missing recent transactions,The transaction search does not return transactions created recently.,Accounts,Medium,Closed
+BUG-1020,Recent transactions not visible in search,Newly completed transactions are missing from transaction search results.,Accounts,Medium,Closed

@@ -1,0 +1,7 @@
+query_id,query_title,query_description,acceptable_bug_ids
+Q001,UPI transfer fails for large amount,Customer cannot complete a high-value UPI transfer above the allowed threshold.,BUG-1001|BUG-1002
+Q002,Valid login credentials rejected,Correct username and password are rejected and the user remains on the login page.,BUG-1005|BUG-1006
+Q003,Successful payment still shows pending,A completed transaction continues to display a pending status.,BUG-1009|BUG-1010
+Q004,Refund not added to balance,The customer's balance does not include the completed refund amount.,BUG-1011|BUG-1012
+Q005,Chatbot cannot connect to human agent,The customer asks for an agent but the chatbot does not initiate the handoff.,BUG-1017|BUG-1018
+Q006,Statement download error,The account statement PDF cannot be downloaded.,BUG-1013|BUG-1014
